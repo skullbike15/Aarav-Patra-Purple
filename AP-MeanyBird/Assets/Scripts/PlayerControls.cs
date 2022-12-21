@@ -43,7 +43,7 @@ public class PlayerControls : MonoBehaviour
     //Function where the player colllides with a object
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "HighSpike" || collision.gameObject.tag == "LowSpike" || collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Stalalagmite" ||  collision.gameObject.tag == "Ground")
         {
             //Game Over function is called from the game manager
             GameObject.Find("GameController").GetComponent<GameController>().GameOver();
