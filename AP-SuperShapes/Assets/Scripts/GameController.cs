@@ -33,6 +33,20 @@ public class GameController : MonoBehaviour
     {
 
     }
-}
 
+    //Game over function
+    public void GameOver()
+    {
+        //Stops the spawn function
+        CancelInvoke("Spawn");
+        //Game over canvas is visible
+        gameOverCanvas.SetActive(true);
+        //Game is at a stopping state
+        Time.timeScale = 0;
+    }
+
+    //Game over canvas object
+    [Header("Game Over UI Object")]
+    public GameObject gameOverCanvas;
+}
 

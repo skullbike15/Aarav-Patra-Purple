@@ -56,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9c23a7df46aad054587e117dc89f2b88, type: 2}
+  - {fileID: 2100000, guid: fd9268f7f94256f48b4c12008a6f9a7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,6 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b769aa40b77e84bab5a665839ac8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shapePrefabs: []
+  spawnDelay: 2
+  spawnTime: 3
 --- !u!50 &6589299326508172811
 Rigidbody2D:
   serializedVersion: 4
