@@ -460,6 +460,10 @@ MonoBehaviour:
   - {fileID: 3600819354773241567, guid: b9974bbe1181ab348968ea07c769aa47, type: 3}
   - {fileID: 3417114003247287460, guid: e9a3ccafa5cb3c243b896ab583de24d7, type: 3}
   - {fileID: 5608908145742263239, guid: a7a20bb749b744044bb235ea1e406d4b, type: 3}
+  - {fileID: 4853924478434294653, guid: 5d8830d30b10aca49ac8e70b67e0bfd1, type: 3}
+  - {fileID: 745159557317429633, guid: 7a13122fa90259549b829cd794922c21, type: 3}
+  - {fileID: 5852075286785545903, guid: 1d0b74b9c78b93741addcfec41aec770, type: 3}
+  - {fileID: 7677577385072824035, guid: c44f2be19702c824fbce0dc225e475e1, type: 3}
   spawnDelay: 2
   spawnTime: 3
   gameOverCanvas: {fileID: 1312116101}
