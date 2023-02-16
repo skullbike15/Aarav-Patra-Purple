@@ -10,6 +10,11 @@ public class GameController : MonoBehaviour
     public Text scoreText;
     int score = 0;
 
+    public void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     public void GameOver()
     {
         Time.timeScale = 0;
