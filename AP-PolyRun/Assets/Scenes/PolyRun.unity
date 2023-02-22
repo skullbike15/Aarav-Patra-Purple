@@ -155,6 +155,9 @@ MonoBehaviour:
   challengeObject: {fileID: 7490093321080981577, guid: a8bdd97daad1132489ac26a73c4f0832, type: 3}
   spawnDelay: 1
   spawnTime: 2
+  challengeObject2: {fileID: 970404538295983530, guid: 953efe69973b1ec439f99f4cccb434eb, type: 3}
+  spawnDelay2: 2
+  spawnTime2: 3
 --- !u!4 &7068504
 Transform:
   m_ObjectHideFlags: 0
