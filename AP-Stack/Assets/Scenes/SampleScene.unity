@@ -570,7 +570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Final Score: ???'
+  m_Text: 'Score: 1'
 --- !u!222 &1702924891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -596,8 +596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -301, y: -12}
-  m_SizeDelta: {x: 205, y: 102}
+  m_AnchoredPosition: {x: -244.68079, y: -12}
+  m_SizeDelta: {x: 317.6384, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2012607229 stripped
 GameObject:
@@ -659,9 +659,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 3558496967554398540, guid: 90df96e1b8e90bb4b86ee4e11fa49ac9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3558496967554398542, guid: 90df96e1b8e90bb4b86ee4e11fa49ac9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: f3116e7e38e49b24892c66df32eaf936, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90df96e1b8e90bb4b86ee4e11fa49ac9, type: 3}
